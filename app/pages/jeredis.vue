@@ -76,28 +76,29 @@
                                         <div class="grid grid-cols-2 gap-6">
                                             <div class="bg-blue-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-blue-100 flex items-center justify-center mb-4 shadow-sm">
-                                                    <i class="fas fa-users text-blue-600 text-2xl" aria-hidden="true"></i>
+                                                    <Icon icon="fa-solid:users" class="text-blue-600 text-2xl" aria-hidden="true"/>
                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Youth Leaders</h3>
                                                 <p class="text-zinc-600 text-sm">Trained over 5,000 young peacebuilders</p>
                                             </div>
                                             <div class="bg-lime-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-lime-100 flex items-center justify-center mb-4 shadow-sm">
-                                                    <i class="fas fa-globe-americas text-lime-600 text-2xl" aria-hidden="true"></i>
+                                                    <Icon icon="bi:globe-europe-africa-fill" class="text-lime-600 text-2xl" aria-hidden="true"/>
                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Global Reach</h3>
                                                 <p class="text-zinc-600 text-sm">Active in 12 countries across 3 continents</p>
                                             </div>
                                             <div class="bg-amber-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-4 shadow-sm">
-                                                    <i class="fas fa-handshake text-amber-600 text-2xl" aria-hidden="true"></i>
-                                                </div>
+                                                    <Icon icon="fa-solid:handshake" class="text-amber-600 text-2xl" aria-hidden="true"/>
+                                                <!-- <Icon icon="fa7-regular:hand-peace" class="text-amber-600 text-2xl" aria-hidden="true"/> -->
+                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Peace Dialogues</h3>
                                                 <p class="text-zinc-600 text-sm">Facilitated 200+ community dialogues</p>
                                             </div>
                                             <div class="bg-yellow-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-yellow-100 flex items-center justify-center mb-4 shadow-sm">
-                                                    <i class="fas fa-graduation-cap text-yellow-600 text-2xl" aria-hidden="true"></i>
+                                                    <Icon icon="fa-solid:graduation-cap" class="text-yellow-600 text-2xl" aria-hidden="true"/>
                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Education</h3>
                                                 <p class="text-zinc-600 text-sm">Peace curriculum in 45 schools</p>
@@ -109,12 +110,12 @@
                                 <!-- Floating elements -->
                                 <div class="absolute -top-6 -right-6 w-24 h-24 rounded-full bg-yellow-400/20 flex items-center justify-center float-animation" aria-hidden="true">
                                     <div class="w-16 h-16 rounded-full bg-yellow-400 flex items-center justify-center shadow-lg">
-                                        <i class="fas fa-peace text-white text-2xl"></i>
+                                        <Icon icon="fa-solid:peace" class="text-white text-2xl"/>
                                     </div>
                                 </div>
                                 <div class="absolute -bottom-6 -left-6 w-20 h-20 rounded-full bg-blue-400/20 flex items-center justify-center float-animation" style="animation-delay: 1s" aria-hidden="true">
                                     <div class="w-12 h-12 rounded-full bg-blue-500 flex items-center justify-center shadow-lg">
-                                        <i class="fas fa-heart text-white text-xl"></i>
+                                        <Icon icon="fa-solid:heart" class="text-white text-xl"/>
                                     </div>
                                 </div>
                             </div>
@@ -128,7 +129,7 @@
                         <div class="flex items-center justify-between px-4 py-3 border-b">
                             <h3 class="font-semibold text-zinc-800">Our Story</h3>
                             <button @click="closeVideo" class="p-2 rounded-lg hover:bg-zinc-100 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Close video">
-                                <i class="fas fa-times"></i>
+                                <Icon icon="fa-solid:times"/>
                             </button>
                         </div>
                         <div class="relative w-full" style="padding-top: 56.25%">
@@ -178,7 +179,7 @@
                             <ul class="space-y-4">
                                 <li class="flex items-start">
                                     <span class="w-8 h-8 rounded-full bg-blue-100 flex items-center justify-center mr-3 mt-0.5">
-                                        <i class="fas fa-seedling text-blue-600"></i>
+                                        <Icon icon="fa-solid:seedling" class="text-blue-600"/>
                                     </span>
                                     <div>
                                         <p class="font-semibold text-zinc-900">Grassroots Impact</p>
@@ -187,7 +188,7 @@
                                 </li>
                                 <li class="flex items-start">
                                     <span class="w-8 h-8 rounded-full bg-lime-100 flex items-center justify-center mr-3 mt-0.5">
-                                        <i class="fas fa-handshake text-lime-600"></i>
+                                        <Icon icon="fa-solid:handshake" class="text-lime-600"/>
                                     </span>
                                     <div>
                                         <p class="font-semibold text-zinc-900">Dialogue & Mediation</p>
@@ -196,7 +197,7 @@
                                 </li>
                                 <li class="flex items-start">
                                     <span class="w-8 h-8 rounded-full bg-amber-100 flex items-center justify-center mr-3 mt-0.5">
-                                        <i class="fas fa-chalkboard-teacher text-amber-600"></i>
+                                        <Icon icon="fa-solid:chalkboard-teacher" class="text-amber-600"/>
                                     </span>
                                     <div>
                                         <p class="font-semibold text-zinc-900">Education & Training</p>
