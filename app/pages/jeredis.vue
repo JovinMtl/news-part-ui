@@ -280,7 +280,7 @@
                             <p class="text-lg text-zinc-600 max-w-2xl">Stories, research, and perspectives from the peacebuilding field</p>
                         </div>
                         <a href="#" class="text-blue-600 font-medium flex items-center group px-6 py-3 rounded-full border border-blue-200 hover:bg-blue-50 transition-all focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500">
-                            View All Articles <i class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"></i>
+                            View All Articles <Icon icon="fa-solid:arrow-right" class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"/>
                         </a>
                     </div>
                     
@@ -292,18 +292,18 @@
                                      class="w-full h-full object-cover image-hover">
                                 <div class="absolute top-4 left-4 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-blue-700 shadow-sm">Research</div>
                                 <div class="absolute bottom-4 right-4 w-14 h-14 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-lg">
-                                    <i class="fas fa-book-open text-blue-600 text-xl" aria-hidden="true"></i>
+                                    <Icon icon="fa-solid:book-open" class="fas fa-book-open text-blue-600 text-xl" aria-hidden="true"/>
                                 </div>
                             </div>
                             <div class="p-8">
                                 <div class="flex items-center text-sm text-zinc-500 mb-4">
-                                    <span class="flex items-center mr-6"><i class="far fa-calendar mr-2"></i> May 15, 2023</span>
-                                    <span class="flex items-center"><i class="far fa-clock mr-2"></i> 5 min read</span>
+                                    <span class="flex items-center mr-6"><Icon icon="fa-solid:calendar" class="mr-2"/> May 15, 2023</span>
+                                    <span class="flex items-center"><Icon icon="fa-solid:clock" class="mr-2"/> 5 min read</span>
                                 </div>
                                 <h3 class="text-xl font-bold text-zinc-900 mb-4 leading-tight">Youth-Led Peace Initiatives in Conflict Zones</h3>
                                 <p class="text-zinc-600 mb-6 leading-relaxed">Exploring how young people are creating innovative solutions to longstanding conflicts in their communities through dialogue and collaboration.</p>
                                 <a href="#" class="text-blue-600 font-medium flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                    Read Article <i class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"></i>
+                                    Read Article <Icon icon="fa-solid:arrow-right" class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"/>
                                 </a>
                             </div>
                         </div>
@@ -315,18 +315,18 @@
                                      class="w-full h-full object-cover image-hover">
                                 <div class="absolute top-4 left-4 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-amber-700 shadow-sm">Story</div>
                                 <div class="absolute bottom-4 right-4 w-14 h-14 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-lg">
-                                    <i class="fas fa-user-friends text-amber-600 text-xl" aria-hidden="true"></i>
+                                    <Icon icon="fa-solid:user-friends" class="fas fa-user-friends text-amber-600 text-xl" aria-hidden="true"/>
                                 </div>
                             </div>
                             <div class="p-8">
                                 <div class="flex items-center text-sm text-zinc-500 mb-4">
-                                    <span class="flex items-center mr-6"><i class="far fa-calendar mr-2"></i> April 28, 2023</span>
-                                    <span class="flex items-center"><i class="far fa-clock mr-2"></i> 7 min read</span>
+                                    <span class="flex items-center mr-6"><Icon icon="fa-solid:calendar" class=" mr-2"/> April 28, 2023</span>
+                                    <span class="flex items-center"><Icon icon="fa-solid:clock" class="far fa-clock mr-2"/> 7 min read</span>
                                 </div>
                                 <h3 class="text-xl font-bold text-zinc-900 mb-4 leading-tight">From Adversaries to Allies: A Youth Dialogue Success Story</h3>
                                 <p class="text-zinc-600 mb-6 leading-relaxed">How our mediation program transformed relationships between youth from opposing communities in the region through empathy and understanding.</p>
                                 <a href="#" class="text-blue-600 font-medium flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                    Read Article <i class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"></i>
+                                    Read Article <Icon icon="fa-solid:arrow-right" class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"/>
                                 </a>
                             </div>
                         </div>
@@ -338,18 +338,18 @@
                                      class="w-full h-full object-cover image-hover">
                                 <div class="absolute top-4 left-4 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-lime-700 shadow-sm">Event</div>
                                 <div class="absolute bottom-4 right-4 w-14 h-14 rounded-full bg-white/90 backdrop-blur-sm flex items-center justify-center shadow-lg">
-                                    <i class="fas fa-calendar-alt text-lime-600 text-xl" aria-hidden="true"></i>
+                                    <Icon icon="fa-solid:calendar-alt" class="text-lime-600 text-xl" aria-hidden="true"/>
                                 </div>
                             </div>
                             <div class="p-8">
                                 <div class="flex items-center text-sm text-zinc-500 mb-4">
-                                    <span class="flex items-center mr-6"><i class="far fa-calendar mr-2"></i> June 5, 2023</span>
-                                    <span class="flex items-center"><i class="far fa-clock mr-2"></i> 4 min read</span>
+                                    <span class="flex items-center mr-6"><Icon icon="fa-regular:calendar" class="far fa-calendar mr-2"/> June 5, 2023</span>
+                                    <span class="flex items-center"><Icon icon="fa-regular:clock" class="far fa-clock mr-2"/> 4 min read</span>
                                 </div>
                                 <h3 class="text-xl font-bold text-zinc-900 mb-4 leading-tight">Global Youth Peace Summit 2023: What to Expect</h3>
                                 <p class="text-zinc-600 mb-6 leading-relaxed">A preview of our upcoming international gathering of young peacebuilders from around the world, featuring workshops, networking, and collaborative projects.</p>
                                 <a href="#" class="text-blue-600 font-medium flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                    Read Article <i class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"></i>
+                                    Read Article <Icon icon="fa-solid:arrow-right" class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"/>
                                 </a>
                             </div>
                         </div>
