@@ -1,5 +1,5 @@
 <template>
-    <div id="app" class="min-h-screen">
+    <div id="app" class="min-h-screen h-screen overflow-x-hidden">
         <!-- Navigation -->
         <nav :class="['sticky top-0 z-50 border-b border-zinc-200/50 backdrop-blur-md bg-white/95', scrolled ? 'shadow-md' : 'shadow-sm']" role="navigation" aria-label="Primary">
             <div class="container mx-auto px-4 py-0">
@@ -26,7 +26,7 @@
                              Support Us
                         </a>
                         <button class="md:hidden text-zinc-700 p-2 rounded-lg hover:bg-zinc-100 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" @click="toggleMobileMenu" :aria-expanded="mobileMenuOpen.toString()" aria-controls="mobileMenu" aria-label="Toggle menu">
-                            <i class="fas" :class="mobileMenuOpen ? 'fa-times text-xl' : 'fa-bars text-xl'"></i>
+                            <Icon :icon="mobileMenuOpen ? 'fa-solid:times':'fa-solid:bars'" class="fa-solid" :class="mobileMenuOpen ? 'fa-times text-xl' : 'fa-bars text-xl'"/>
                         </button>
                     </div>
                 </div>
