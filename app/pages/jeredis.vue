@@ -64,7 +64,7 @@
                                     <Icon icon="fa-solid:hands-helping" class="mr-3 group-hover:rotate-12 transition-transform"/> Join Our Movement
                                 </a>
                                 <button @click="openVideo" class="px-8 py-3.5 bg-gradient-to-r from-lime-500 to-lime-400 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-lime-500">
-                                    <i class="fas fa-play-circle mr-3 group-hover:scale-110 transition-transform"></i> Watch Our Story
+                                    <Icon icon="fa-solid:play-circle" class="fa- mr-3 group-hover:scale-110 transition-transform"/> Watch Our Story
                                 </button>
                             </div>
                         </div>
