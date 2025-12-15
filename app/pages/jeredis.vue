@@ -47,7 +47,8 @@
         <main id="main">
             <!-- Hero Section -->
             <section id="home" class="hero-gradient py-16 md:py-28 overflow-hidden relative scroll-mt-24">
-                <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639436926668-2f8b4f32e15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIweW91dGglMjBwZWFjZSUyMGNvbW11bml0eSUyMHNtaWxpbmclMjBvdXRkb29yc3xlbnwwfDB8fHwxNzY1NTU1NzgyfDA&ixlib=rb-4.1.0&q=80&w=1920')] bg-cover bg-center opacity-10"></div>
+                <!-- <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639436926668-2f8b4f32e15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIweW91dGglMjBwZWFjZSUyMGNvbW11bml0eSUyMHNtaWxpbmclMjBvdXRkb29yc3xlbnwwfDB8fHwxNzY1NTU1NzgyfDA&ixlib=rb-4.1.0&q=80&w=1920')] bg-cover bg-center opacity-10"></div> -->
+                <div class="absolute inset-0 bg-[url('/jeredis1.png')] bg-cover bg-center opacity-20"></div>
                 <div class="container mx-auto px-4 relative">
                     <div class="flex flex-col lg:flex-row items-center">
                         <div class="lg:w-1/2 mb-12 lg:mb-0 fade-in">
@@ -568,6 +569,8 @@
     function openVideo() {
         // Replace with your own video URL if needed
         const url = 'https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1&rel=0&modestbranding=1';
+        const jeredisTestimonial = 'https://www.youtube.com/watch?v=cZ8yYp_gjPU'
+        const jeredisTestimonialEmbed = 'https://www.youtube.com/embed/cZ8yYp_gjPU?autoplay=1&rel=0&modestbranding=1'
         videoSrc = url;
         showVideo = true;
         document.body.style.overflow = 'hidden';
