@@ -10,8 +10,10 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@fontsource/inter": "^5.2.8",
     "@headlessui/vue": "^1.7.23",
     "@heroicons/vue": "^2.2.0",
+    "@iconify/vue": "^5.0.0",
     "@tailwindcss/vite": "^4.1.18",
     "nuxt": "^4.0.1",
     "vue": "^3.5.17",

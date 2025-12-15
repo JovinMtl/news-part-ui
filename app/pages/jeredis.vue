@@ -50,7 +50,7 @@
                     <div class="flex flex-col lg:flex-row items-center">
                         <div class="lg:w-1/2 mb-12 lg:mb-0 fade-in">
                             <div class="inline-flex items-center px-4 py-2 rounded-full bg-amber-100 text-amber-800 font-medium mb-6 shadow-sm animate-pulse">
-                                <i class="fas fa-star mr-2"></i> Empowering Youth for Peace Since 2010
+                                <Icon icon="fa-solid:star" class="mr-2" /> Empowering Youth for Peace Since 2010
                             </div>
                             <h1 class="text-4xl md:text-6xl font-bold text-zinc-900 mb-6 leading-tight">
                                 Building Bridges of <span class="text-gradient">Peace</span> Through Youth <span class="text-gradient">Empowerment</span>
@@ -60,7 +60,8 @@
                             </p>
                             <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
                                 <a href="#about" class="px-8 py-3.5 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-medium rounded-full btn-glow hover:shadow-xl transition-all duration-300 flex items-center justify-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
-                                    <i class="fas fa-hands-helping mr-3 group-hover:rotate-12 transition-transform"></i> Join Our Movement
+                                    <!-- <i class="fas fa-hands-helping mr-3 group-hover:rotate-12 transition-transform"></i> Join Our Movement -->
+                                    <Icon icon="fa-solid:hands-helping" class="mr-3 group-hover:rotate-12 transition-transform"/> Join Our Movement
                                 </a>
                                 <button @click="openVideo" class="px-8 py-3.5 bg-gradient-to-r from-lime-500 to-lime-400 text-white font-medium rounded-full shadow-lg hover:shadow-xl transition-all duration-300 flex items-center justify-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-lime-500">
                                     <i class="fas fa-play-circle mr-3 group-hover:scale-110 transition-transform"></i> Watch Our Story
@@ -498,6 +499,7 @@
 <script setup lang="ts">
     // const { createApp } = Vue;
     import { reactive, ref, onMounted } from 'vue';
+    import { Icon } from '@iconify/vue'
 
     const  mobileMenuOpen = ref(false);
     const  scrolled = ref(false);
