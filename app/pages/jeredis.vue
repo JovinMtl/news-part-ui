@@ -237,34 +237,34 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white rounded-2xl shadow-xl p-8 card-hover border-t-4 border-blue-500 fade-in" style="transition-delay: 0.1s">
                             <div class="w-16 h-16 rounded-full bg-blue-100 flex items-center justify-center mb-6 shadow-lg">
-                                <i class="fas fa-comments text-blue-600 text-3xl" aria-hidden="true"></i>
+                                <Icon icon="fa-solid:comments" class="text-blue-600 text-3xl" aria-hidden="true"/>
                             </div>
                             <h3 class="text-2xl font-bold text-zinc-900 mb-4">Dialogue & Mediation</h3>
                             <p class="text-zinc-600 mb-6 leading-relaxed">Facilitating constructive conversations between youth from diverse backgrounds to resolve conflicts peacefully and build mutual understanding.</p>
                             <a href="#" class="text-blue-600 font-medium flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                Learn More <i class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"></i>
+                                Learn More <Icon icon="fa-solid:arrow-right" class="ml-3 group-hover:translate-x-2 transition-transform"/>
                             </a>
                         </div>
                         
                         <div class="bg-white rounded-2xl shadow-xl p-8 card-hover border-t-4 border-lime-500 fade-in" style="transition-delay: 0.2s">
                             <div class="w-16 h-16 rounded-full bg-lime-100 flex items-center justify-center mb-6 shadow-lg">
-                                <i class="fas fa-brain text-lime-600 text-3xl" aria-hidden="true"></i>
+                                <Icon icon="fa-solid:brain" class="text-lime-600 text-3xl" aria-hidden="true"/>
                             </div>
                             <h3 class="text-2xl font-bold text-zinc-900 mb-4">Leadership Training</h3>
                             <p class="text-zinc-600 mb-6 leading-relaxed">Developing the next generation of ethical leaders with skills in conflict resolution, emotional intelligence, and community building.</p>
                             <a href="#" class="text-lime-600 font-medium flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-lime-500 rounded px-1 py-1">
-                                Learn More <i class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"></i>
+                                Learn More <Icon icon="fa-solid:arrow-right" class="ml-3 group-hover:translate-x-2 transition-transform"/>
                             </a>
                         </div>
                         
                         <div class="bg-white rounded-2xl shadow-xl p-8 card-hover border-t-4 border-amber-500 fade-in" style="transition-delay: 0.3s">
                             <div class="w-16 h-16 rounded-full bg-amber-100 flex items-center justify-center mb-6 shadow-lg">
-                                <i class="fas fa-hands-helping text-amber-600 text-3xl" aria-hidden="true"></i>
+                                <Icon icon="fa-solid:hands-helping" class="text-amber-600 text-3xl" aria-hidden="true"/>
                             </div>
                             <h3 class="text-2xl font-bold text-zinc-900 mb-4">Community Projects</h3>
                             <p class="text-zinc-600 mb-6 leading-relaxed">Supporting youth-led initiatives that address local challenges, promote social cohesion, and create sustainable impact.</p>
                             <a href="#" class="text-amber-600 font-medium flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-amber-500 rounded px-1 py-1">
-                                Learn More <i class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"></i>
+                                Learn More <Icon icon="fa-solid:arrow-right" class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"/>
                             </a>
                         </div>
                     </div>
