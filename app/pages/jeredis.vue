@@ -509,7 +509,7 @@
     const animatedStats = reactive({ youthReached: 0, programs: 0, countries: 0, satisfaction: 0 });
     const statsTargets = reactive({ youthReached: 12500, programs: 320, countries: 45, satisfaction: 98 });
     const statsStarted = ref(false);
-    let showVideo = false
+    const showVideo = ref(false);
     let videoSrc = ''
     let email =  ''
     let subscribed =  false
@@ -572,11 +572,11 @@
         const jeredisTestimonial = 'https://www.youtube.com/watch?v=cZ8yYp_gjPU'
         const jeredisTestimonialEmbed = 'https://www.youtube.com/embed/cZ8yYp_gjPU?autoplay=1&rel=0&modestbranding=1'
         videoSrc = url;
-        showVideo = true;
+        showVideo.value = true;
         document.body.style.overflow = 'hidden';
     }
     function closeVideo() {
-        showVideo = false;
+        showVideo.value = false;
         videoSrc = '';
         document.body.style.overflow = '';
     }
