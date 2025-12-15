@@ -483,7 +483,7 @@
                 </div>
                 
                 <div class="border-t border-zinc-800 mt-16 pt-10 text-center text-zinc-500 fade-in">
-                    <p class="mb-4">&copy; 2023 YouthPeace Alliance. All rights reserved.</p>
+                    <p class="mb-4">&copy; {{ year }} YouthPeace Alliance. All rights reserved.</p>
                     <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-8">
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Privacy Policy</a>
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Terms of Service</a>
@@ -510,6 +510,8 @@
     let videoSrc = ''
     let email =  ''
     let subscribed =  false
+
+    const year = String(new Date()).slice(10,15)
 
     //Functions
     function toggleMobileMenu() { mobileMenuOpen.value = !mobileMenuOpen.value; }
