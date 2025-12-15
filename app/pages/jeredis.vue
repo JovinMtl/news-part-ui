@@ -2,13 +2,14 @@
     <div id="app" class="min-h-screen">
         <!-- Navigation -->
         <nav :class="['sticky top-0 z-50 border-b border-zinc-200/50 backdrop-blur-md bg-white/95', scrolled ? 'shadow-md' : 'shadow-sm']" role="navigation" aria-label="Primary">
-            <div class="container mx-auto px-4 py-3">
+            <div class="container mx-auto px-4 py-0">
                 <div class="flex justify-between items-center">
                     <a href="#home" class="flex items-center space-x-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded-lg">
-                        <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-lime-400 flex items-center justify-center shadow-lg float-animation" aria-hidden="true">
-                            <i class="fas fa-dove text-white text-xl"></i>
-                        </div>
-                        <span class="text-2xl font-bold text-zinc-900">YouthPeace<span class="text-blue-600">Alliance</span></span>
+                        <!-- <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-lime-400 flex items-center justify-center shadow-lg float-animation" aria-hidden="true">
+                            <Icon icon="fa-solid:dove" class="fas fa-dove text-white text-xl"/>
+                        </div> -->
+                        <!-- <span class="text-2xl font-bold text-zinc-900">YouthPeace<span class="text-blue-600">Alliance</span></span> -->
+                        <img src="/former-logo.png" alt="Jeredis logo"  class="h-18"/>
                     </a>
                     
                     <div class="hidden md:flex items-center space-x-10">
@@ -20,8 +21,9 @@
                     </div>
                     
                     <div class="flex items-center space-x-4">
-                        <a href="#donate" class="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-medium rounded-full btn-glow hover:shadow-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500">
-                            <i class="fas fa-heart mr-2"></i> Donate
+                        <a href="#donate" class="px-6 py-2.5 bg-gradient-to-r from-blue-600 to-blue-500 text-white font-medium rounded-full btn-glow hover:shadow-lg transition-all duration-300 focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 justify-center">
+                            <!-- <Icon icon="fa-solid:heart" class="fas fa-heart mr-2"/> Support Us -->
+                             Support Us
                         </a>
                         <button class="md:hidden text-zinc-700 p-2 rounded-lg hover:bg-zinc-100 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" @click="toggleMobileMenu" :aria-expanded="mobileMenuOpen.toString()" aria-controls="mobileMenu" aria-label="Toggle menu">
                             <i class="fas" :class="mobileMenuOpen ? 'fa-times text-xl' : 'fa-bars text-xl'"></i>
