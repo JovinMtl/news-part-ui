@@ -1,0 +1,1 @@
+export { default } from "file:///home/muteule/Coding/news-part-ui/node_modules/@nuxt/vite-builder/dist/runtime/vite-node.mjs"
