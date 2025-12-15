@@ -432,19 +432,19 @@
                         <h3 class="text-xl font-bold mb-8">Quick Links</h3>
                         <ul class="space-y-4">
                             <li><a href="#home" class="text-zinc-400 hover:text-blue-400 transition-all duration-300 flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                <i class="fas fa-chevron-right text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></i> Home
+                                <Icon icon="fa-solid:chevron-right" class="text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"/> Home
                             </a></li>
                             <li><a href="#about" class="text-zinc-400 hover:text-blue-400 transition-all duration-300 flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                <i class="fas fa-chevron-right text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></i> About Us
+                                <Icon icon="fa-solid:chevron-right" class="text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"/> About Us
                             </a></li>
                             <li><a href="#programs" class="text-zinc-400 hover:text-blue-400 transition-all duration-300 flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                <i class="fas fa-chevron-right text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></i> Our Programs
+                                <Icon icon="fa-solid:chevron-right" class="text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"/> Our Programs
                             </a></li>
                             <li><a href="#blog" class="text-zinc-400 hover:text-blue-400 transition-all duration-300 flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                <i class="fas fa-chevron-right text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></i> Blog & Resources
+                                <Icon icon="fa-solid:chevron-right" class="text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"/> Blog & Resources
                             </a></li>
                             <li><a href="#donate" class="text-zinc-400 hover:text-blue-400 transition-all duration-300 flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
-                                <i class="fas fa-chevron-right text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"></i> Get Involved
+                                <Icon icon="fa-solid:chevron-right" class="text-xs mr-3 opacity-0 group-hover:opacity-100 transition-opacity"/> Get Involved
                             </a></li>
                         </ul>
                     </div>
@@ -453,15 +453,15 @@
                         <h3 class="text-xl font-bold mb-8">Contact Us</h3>
                         <ul class="space-y-6">
                             <li class="flex items-start group">
-                                <i class="fas fa-map-marker-alt text-blue-400 mt-1.5 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"></i>
+                                <Icon icon="fa-solid:map-marker-alt" class="fas fa-map-marker-alt text-blue-400 mt-1.5 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"/>
                                 <span class="text-zinc-400 leading-relaxed">123 Peace Avenue, Global City 10001</span>
                             </li>
                             <li class="flex items-center group">
-                                <i class="fas fa-phone text-blue-400 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"></i>
+                                <Icon icon="fa-solid:phone" class="text-blue-400 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"/>
                                 <a href="tel:+15551234567" class="text-zinc-400 hover:text-blue-300">+1 (555) 123-4567</a>
                             </li>
                             <li class="flex items-center group">
-                                <i class="fas fa-envelope text-blue-400 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"></i>
+                                <Icon icon="fa-solid:envelope" class="fas fa-envelope text-blue-400 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"/>
                                 <a href="mailto:info@youthpeace.org" class="text-zinc-400 hover:text-blue-300">info@youthpeace.org</a>
                             </li>
                         </ul>
@@ -474,7 +474,7 @@
                             <label for="newsletter-email" class="sr-only">Your email address</label>
                             <input id="newsletter-email" v-model="email" type="email" required autocomplete="email" placeholder="Your email address" class="flex-grow px-5 py-3.5 rounded-l-xl bg-zinc-800 text-white focus:outline-none focus:ring-2 focus:ring-blue-500 focus:bg-zinc-700 transition-all" />
                             <button type="submit" class="px-6 bg-gradient-to-r from-blue-500 to-lime-400 text-white font-medium rounded-r-xl hover:opacity-90 transition-all duration-300 hover:shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500" aria-label="Subscribe">
-                                <i class="fas fa-paper-plane text-lg"></i>
+                                <Icon icon="fa-solid:paper-plane" class="fas fa-paper-plane text-lg"/>
                             </button>
                         </form>
                         <p v-if="subscribed" class="text-green-400 text-sm">Thanks for subscribing! Please check your inbox.</p>
@@ -498,7 +498,6 @@
 
 
 <script setup lang="ts">
-    // const { createApp } = Vue;
     import { reactive, ref, onMounted } from 'vue';
     import { Icon } from '@iconify/vue'
 
