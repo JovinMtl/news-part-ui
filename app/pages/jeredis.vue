@@ -90,7 +90,7 @@
                                             </div>
                                             <div class="bg-amber-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-4 shadow-sm">
-                                                    <Icon icon="fa-solid:handshake" class="text-amber-600 text-2xl" aria-hidden="true"/>
+                                                    <Icon icon="fa-solid:dove" class="text-amber-600 text-2xl" aria-hidden="true"/>
                                                 <!-- <Icon icon="fa7-regular:hand-peace" class="text-amber-600 text-2xl" aria-hidden="true"/> -->
                                                  </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Peace Dialogues</h3>
@@ -407,23 +407,23 @@
                     <div class="fade-in">
                         <div class="flex items-center space-x-3 mb-8">
                             <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-lime-400 flex items-center justify-center shadow-lg float-animation" aria-hidden="true">
-                                <i class="fas fa-dove text-white text-xl"></i>
+                                <Icon icon="fa-solid:dove" class="text-white text-xl"/>
                             </div>
                             <span class="text-2xl font-bold">YouthPeace<span class="text-blue-400">Alliance</span></span>
                         </div>
                         <p class="text-zinc-400 mb-8 leading-relaxed">Empowering youth to become architects of peace in their communities and beyond through education, dialogue, and action.</p>
                         <div class="flex space-x-4">
-                            <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-blue-600 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Twitter">
-                                <i class="fab fa-twitter"></i>
+                            <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-black-600 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Twitter">
+                                <Icon icon="simple-icons:x"/>
                             </a>
                             <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-blue-700 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Facebook">
-                                <i class="fab fa-facebook-f"></i>
+                                <Icon icon="fa-brands:facebook-f" class="fab fa-facebook-f"/>
                             </a>
                             <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-pink-600 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500" aria-label="Instagram">
-                                <i class="fab fa-instagram"></i>
+                                <Icon icon="fa-brands:instagram" class="fab fa-instagram"/>
                             </a>
                             <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-blue-500 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="LinkedIn">
-                                <i class="fab fa-linkedin-in"></i>
+                                <Icon icon="fa-brands:linkedin-in" class="fab fa-linkedin-in"/>
                             </a>
                         </div>
                     </div>
