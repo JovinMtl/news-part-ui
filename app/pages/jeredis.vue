@@ -26,7 +26,7 @@
                              Support Us
                         </a>
                         <button class="md:hidden text-zinc-700 p-2 rounded-lg hover:bg-zinc-100 transition focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" @click="toggleMobileMenu" :aria-expanded="mobileMenuOpen.toString()" aria-controls="mobileMenu" aria-label="Toggle menu">
-                            <Icon :icon="mobileMenuOpen ? 'fa-solid:times':'fa-solid:bars'" class="fa-solid" :class="mobileMenuOpen ? 'fa-times text-xl' : 'fa-bars text-xl'"/>
+                            <Icon :icon="mobileMenuOpen ? 'fa7-solid:angle-double-up':'fa-solid:bars'" class="fa-solid" :class="mobileMenuOpen ? 'text-xl' : 'text-xl'" />
                         </button>
                     </div>
                 </div>
