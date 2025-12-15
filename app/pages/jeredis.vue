@@ -370,10 +370,10 @@
                         
                         <div class="flex flex-col sm:flex-row justify-center space-y-6 sm:space-y-0 sm:space-x-8 mb-16">
                             <a href="#contact" class="px-10 py-5 bg-white text-blue-600 font-bold rounded-full hover:bg-blue-50 hover:shadow-2xl transition-all duration-300 flex items-center justify-center group shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-white">
-                                <i class="fas fa-hand-holding-heart mr-4 text-xl group-hover:scale-110 transition-transform"></i> Become a Partner
+                                <Icon icon="fa-solid:hand-holding-heart" class="mr-4 text-xl group-hover:scale-110 transition-transform"/> Become a Partner
                             </a>
                             <a href="#about" class="px-10 py-5 bg-yellow-400 text-blue-900 font-bold rounded-full hover:bg-yellow-300 hover:shadow-2xl transition-all duration-300 flex items-center justify-center group shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-yellow-300">
-                                <i class="fas fa-user-graduate mr-4 text-xl group-hover:scale-110 transition-transform"></i> Join as Youth Ambassador
+                                <Icon icon="fa-solid:user-graduate" class="mr-4 text-xl group-hover:scale-110 transition-transform"/> Join as Youth Ambassador
                             </a>
                         </div>
                         
