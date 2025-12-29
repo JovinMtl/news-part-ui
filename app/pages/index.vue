@@ -82,14 +82,14 @@
                                                     <Icon icon="fa-solid:users" class="text-blue-600 text-2xl" aria-hidden="true"/>
                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Youth Leaders</h3>
-                                                <p class="text-zinc-600 text-sm">Trained over 5,000 young peacebuilders</p>
+                                                <p class="text-zinc-600 text-sm">Trained over 2000 young peacebuilders</p>
                                             </div>
                                             <div class="bg-lime-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-lime-100 flex items-center justify-center mb-4 shadow-sm">
                                                     <Icon icon="bi:globe-europe-africa-fill" class="text-lime-600 text-2xl" aria-hidden="true"/>
                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Global Reach</h3>
-                                                <p class="text-zinc-600 text-sm">Active in 12 countries across 3 continents</p>
+                                                <p class="text-zinc-600 text-sm">Active in 5 provinces across Burundi</p>
                                             </div>
                                             <div class="bg-amber-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-amber-100 flex items-center justify-center mb-4 shadow-sm">
@@ -97,14 +97,14 @@
                                                 <!-- <Icon icon="fa7-regular:hand-peace" class="text-amber-600 text-2xl" aria-hidden="true"/> -->
                                                  </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Peace Dialogues</h3>
-                                                <p class="text-zinc-600 text-sm">Facilitated 200+ community dialogues</p>
+                                                <p class="text-zinc-600 text-sm">Facilitated 50+ community dialogues</p>
                                             </div>
                                             <div class="bg-yellow-50 p-5 rounded-2xl card-hover">
                                                 <div class="w-14 h-14 rounded-full bg-yellow-100 flex items-center justify-center mb-4 shadow-sm">
                                                     <Icon icon="fa-solid:graduation-cap" class="text-yellow-600 text-2xl" aria-hidden="true"/>
                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Education</h3>
-                                                <p class="text-zinc-600 text-sm">Peace curriculum in 45 schools</p>
+                                                <p class="text-zinc-600 text-sm">Peace curriculum in 8 schools</p>
                                             </div>
                                         </div>
                                     </div>
