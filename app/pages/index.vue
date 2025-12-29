@@ -295,10 +295,10 @@
                     <div class="grid md:grid-cols-3 gap-8">
                         <div class="bg-white rounded-2xl shadow-xl overflow-hidden card-hover fade-in" style="transition-delay: 0.1s">
                             <div class="h-56 relative overflow-hidden">
-                                <img loading="lazy" src="https://images.unsplash.com/photo-1660795864713-41ec1c370ba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHBlYWNlYnVpbGRpbmclMjB3b3Jrc2hvcCUyMGhhbmRzJTIwbWVkaWF0aW9ufGVufDB8MHx8fDE3NjU1NTU3ODN8MA&ixlib=rb-4.1.0&q=80&w=1200" 
+                                <!-- <img loading="lazy" src="https://images.unsplash.com/photo-1660795864713-41ec1c370ba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHBlYWNlYnVpbGRpbmclMjB3b3Jrc2hvcCUyMGhhbmRzJTIwbWVkaWF0aW9ufGVufDB8MHx8fDE3NjU1NTU3ODN8MA&ixlib=rb-4.1.0&q=80&w=1200" 
                                      alt="Facilitator and youth joining hands during a mediation workshop" 
-                                     class="w-full h-full object-cover image-hover">
-                                <img loading="lazy" src="https://images.unsplash.com/photo-1660795864713-41ec1c370ba2?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHx5b3V0aCUyMHBlYWNlYnVpbGRpbmclMjB3b3Jrc2hvcCUyMGhhbmRzJTIwbWVkaWF0aW9ufGVufDB8MHx8fDE3NjU1NTU3ODN8MA&ixlib=rb-4.1.0&q=80&w=1200" 
+                                     class="w-full h-full object-cover image-hover"> -->
+                                <img loading="lazy" src="/jeredisteaching.jpeg" 
                                      alt="Facilitator and youth joining hands during a mediation workshop" 
                                      class="w-full h-full object-cover image-hover">
                                 <div class="absolute top-4 left-4 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-blue-700 shadow-sm">Research</div>
@@ -344,7 +344,10 @@
                         
                         <div class="bg-white rounded-2xl shadow-xl overflow-hidden card-hover fade-in" style="transition-delay: 0.3s">
                             <div class="h-56 relative overflow-hidden">
-                                <img loading="lazy" src="https://images.unsplash.com/photo-1725618878496-233974f2fd59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxpbnRlcm5hdGlvbmFsJTIweW91dGglMjBzdW1taXQlMjBjb25mZXJlbmNlJTIwc3RhZ2UlMjBhdWRpZW5jZXxlbnwwfDB8fHwxNzY1NTU1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1200" 
+                                <!-- <img loading="lazy" src="https://images.unsplash.com/photo-1725618878496-233974f2fd59?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxpbnRlcm5hdGlvbmFsJTIweW91dGglMjBzdW1taXQlMjBjb25mZXJlbmNlJTIwc3RhZ2UlMjBhdWRpZW5jZXxlbnwwfDB8fHwxNzY1NTU1Nzg0fDA&ixlib=rb-4.1.0&q=80&w=1200" 
+                                     alt="International youth peace summit on stage" 
+                                     class="w-full h-full object-cover image-hover"> -->
+                                <img loading="lazy" src="/jeredisvolontariat.png" 
                                      alt="International youth peace summit on stage" 
                                      class="w-full h-full object-cover image-hover">
                                 <div class="absolute top-4 left-4 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-lime-700 shadow-sm">Event</div>
@@ -357,7 +360,7 @@
                                     <span class="flex items-center mr-6"><Icon icon="fa-regular:calendar" class="far fa-calendar mr-2"/> June 5, 2023</span>
                                     <span class="flex items-center"><Icon icon="fa-regular:clock" class="far fa-clock mr-2"/> 4 min read</span>
                                 </div>
-                                <h3 class="text-xl font-bold text-zinc-900 mb-4 leading-tight">Global Youth Peace Summit 2023: What to Expect</h3>
+                                <h3 class="text-xl font-bold text-zinc-900 mb-4 leading-tight">Promouvons le volontariat en milieu scolaire</h3>
                                 <p class="text-zinc-600 mb-6 leading-relaxed">A preview of our upcoming international gathering of young peacebuilders from around the world, featuring workshops, networking, and collaborative projects.</p>
                                 <a href="#" class="text-blue-600 font-medium flex items-center group focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500 rounded px-1 py-1">
                                     Read Article <Icon icon="fa-solid:arrow-right" class="fas fa-arrow-right ml-3 group-hover:translate-x-2 transition-transform"/>
@@ -417,10 +420,15 @@
                 <div class="grid md:grid-cols-4 gap-10">
                     <div class="fade-in">
                         <div class="flex items-center space-x-3 mb-8">
-                            <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-lime-400 flex items-center justify-center shadow-lg float-animation" aria-hidden="true">
+                            <!-- <div class="w-12 h-12 rounded-full bg-gradient-to-r from-blue-500 to-lime-400 flex items-center justify-center shadow-lg float-animation" aria-hidden="true">
                                 <Icon icon="fa-solid:dove" class="text-white text-xl"/>
+                                 <img src="/former-logo.png" alt="" >
+                            </div> -->
+                            <div class=" from-blue-500 to-lime-400 flex items-center justify-center shadow-lg float-animation" aria-hidden="true">
+                                <!-- <Icon icon="fa-solid:dove" class="text-white text-xl"/> -->
+                                 <img loading="lazy" class="h-12 rounded-full" src="/former-logo.png" alt="" >
                             </div>
-                            <span class="text-2xl font-bold">YouthPeace<span class="text-blue-400">Alliance</span></span>
+                            <span class="text-2xl font-bold">Jeredis</span>
                         </div>
                         <p class="text-zinc-400 mb-8 leading-relaxed">Empowering youth to become architects of peace in their communities and beyond through education, dialogue, and action.</p>
                         <div class="flex space-x-4">
@@ -463,17 +471,17 @@
                     <div class="fade-in" style="transition-delay: 0.2s">
                         <h3 class="text-xl font-bold mb-8">Contact Us</h3>
                         <ul class="space-y-6">
-                            <li class="flex items-start group">
+                            <li class="flex items-start group" title="Gihosha (Gisandema), Ntahangwa">
                                 <Icon icon="fa-solid:map-marker-alt" class="fas fa-map-marker-alt text-blue-400 mt-1.5 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"/>
-                                <span class="text-zinc-400 leading-relaxed">123 Peace Avenue, Global City 10001</span>
+                                <span class="text-zinc-400 leading-relaxed">Bujumbura - Burundi</span>
                             </li>
                             <li class="flex items-center group">
                                 <Icon icon="fa-solid:phone" class="text-blue-400 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"/>
-                                <a href="tel:+15551234567" class="text-zinc-400 hover:text-blue-300">+1 (555) 123-4567</a>
+                                <a href="tel:+25779916310" class="text-zinc-400 hover:text-blue-300">+257 79 91 63 10</a>
                             </li>
                             <li class="flex items-center group">
                                 <Icon icon="fa-solid:envelope" class="fas fa-envelope text-blue-400 mr-4 text-lg group-hover:scale-110 transition-transform" aria-hidden="true"/>
-                                <a href="mailto:info@youthpeace.org" class="text-zinc-400 hover:text-blue-300">info@youthpeace.org</a>
+                                <a href="mailto:info@jeredis.org" class="text-zinc-400 hover:text-blue-300">info@jeredis.org</a>
                             </li>
                         </ul>
                     </div>
@@ -494,13 +502,14 @@
                 </div>
                 
                 <div class="border-t border-zinc-800 mt-16 pt-10 text-center text-zinc-500 fade-in">
-                    <p class="mb-4">&copy; {{ year }} YouthPeace Alliance. All rights reserved.</p>
-                    <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-8">
+                    <p class="mb-4">&copy; {{ year }} Jeredis. All rights reserved.</p>
+                    <!-- <div class="flex flex-col sm:flex-row justify-center space-y-2 sm:space-y-0 sm:space-x-8">
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Privacy Policy</a>
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Terms of Service</a>
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Cookie Policy</a>
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Accessibility</a>
-                    </div>
+                    </div> -->
+                    <p>Site Web developpé par <a class="text-blue-500" href="https://nsanzumukiza.netlify.app/" target="_blank"  rel="noopener noreferrer">Thierry Nsanzumukiza</a>.</p>
                 </div>
             </div>
         </footer>
