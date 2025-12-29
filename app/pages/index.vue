@@ -9,7 +9,7 @@
                             <Icon icon="fa-solid:dove" class="fas fa-dove text-white text-xl"/>
                         </div> -->
                         <!-- <span class="text-2xl font-bold text-zinc-900">YouthPeace<span class="text-blue-600">Alliance</span></span> -->
-                        <img src="/former-logo.png" alt="Jeredis logo"  class="h-18"/>
+                        <img src="/former-logo.png" alt="Jeredis logo"  class="h-18 rounded-full"/>
                     </a>
                     
                     <div class="hidden md:flex items-center space-x-10">
@@ -321,7 +321,10 @@
                         
                         <div class="bg-white rounded-2xl shadow-xl overflow-hidden card-hover fade-in" style="transition-delay: 0.2s">
                             <div class="h-56 relative overflow-hidden">
-                                <img loading="lazy" src="https://images.unsplash.com/photo-1573497619860-6d82917e4ec8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGxlYWRlcnMlMjB3b3Jrc2hvcCUyMGNpcmNsZSUyMGRpc2N1c3Npb24lMjBpbmRvb3IlMjBjbGFzc3Jvb218ZW58MHwwfHx8MTc2NTU1NTc4Mnww&ixlib=rb-4.1.0&q=80&w=1200" 
+                                <!-- <img loading="lazy" src="https://images.unsplash.com/photo-1573497619860-6d82917e4ec8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHx5b3VuZyUyMGxlYWRlcnMlMjB3b3Jrc2hvcCUyMGNpcmNsZSUyMGRpc2N1c3Npb24lMjBpbmRvb3IlMjBjbGFzc3Jvb218ZW58MHwwfHx8MTc2NTU1NTc4Mnww&ixlib=rb-4.1.0&q=80&w=1200" 
+                                     alt="Young leaders in a circle discussion during training" 
+                                     class="w-full h-full object-cover image-hover"> -->
+                                <img loading="lazy" src="/jeredis2.png" 
                                      alt="Young leaders in a circle discussion during training" 
                                      class="w-full h-full object-cover image-hover">
                                 <div class="absolute top-4 left-4 px-4 py-1.5 bg-white/90 backdrop-blur-sm rounded-full text-sm font-medium text-amber-700 shadow-sm">Story</div>
@@ -402,7 +405,7 @@
                             </div>
                             <div class="glass-effect rounded-2xl p-6 backdrop-blur-sm card-hover">
                                 <div class="text-3xl font-bold text-white mb-2">UN</div>
-                                <div class="text-blue-100/80 text-sm font-medium">Affiliated</div>
+                                <div class="text-blue-100/80 text-sm font-medium">Looking for affiliation</div>
                             </div>
                             <div class="glass-effect rounded-2xl p-6 backdrop-blur-sm card-hover">
                                 <div class="text-3xl font-bold text-white mb-2">A+</div>
