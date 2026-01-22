@@ -442,16 +442,16 @@
                         </div>
                         <p class="text-zinc-400 mb-8 leading-relaxed">Empowering youth to become architects of peace in their communities and beyond through education, dialogue, and action.</p>
                         <div class="flex space-x-4">
-                            <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-black-600 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Twitter">
+                            <a href="https://x.com/AsblJeredis" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-black-600 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Twitter">
                                 <Icon icon="simple-icons:x"/>
                             </a>
-                            <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-blue-700 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Facebook">
+                            <a href="https://www.facebook.com/jeredis2019" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-blue-700 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="Facebook">
                                 <Icon icon="fa-brands:facebook-f" class="fab fa-facebook-f"/>
                             </a>
-                            <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-pink-600 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500" aria-label="Instagram">
+                            <a href="https://www.instagram.com/jeredisasbl2019?igsh=MWU4b21qYnZudHRpdQ" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-pink-600 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-pink-500" aria-label="Instagram">
                                 <Icon icon="fa-brands:instagram" class="fab fa-instagram"/>
                             </a>
-                            <a href="#" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-blue-500 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/jeredis-asbl-23a09936a" class="w-12 h-12 rounded-full bg-zinc-800 flex items-center justify-center hover:bg-blue-500 transition-all duration-300 hover:scale-110 shadow-lg focus:outline-none focus-visible:ring-2 focus-visible:ring-blue-500" aria-label="LinkedIn">
                                 <Icon icon="fa-brands:linkedin-in" class="fab fa-linkedin-in"/>
                             </a>
                         </div>
