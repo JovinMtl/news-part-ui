@@ -585,7 +585,7 @@
                     animatedStats[stat] = Math.floor(current);
                 }
             }, interval);
-        });
+        }); 
     }
     function observeStats() {
         const section = document.querySelector('section.bg-gradient-to-r');
