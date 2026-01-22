@@ -164,7 +164,7 @@
                         </div>
                         <div class="text-center fade-in" style="transition-delay: 0.2s">
                             <div class="text-5xl font-bold text-amber-500 mb-3 stat-counter">{{ animatedStats.countries }}</div>
-                            <p class="text-zinc-600 font-medium">Countries</p>
+                            <p class="text-zinc-600 font-medium">Countries to reach</p>
                             <div class="w-16 h-1 bg-gradient-to-r from-amber-500 to-amber-300 mx-auto mt-3 rounded-full"></div>
                         </div>
                         <div class="text-center fade-in" style="transition-delay: 0.3s">
@@ -183,7 +183,7 @@
                         <div class="order-2 lg:order-1 fade-in">
                             <h2 class="text-4xl font-bold text-zinc-900 mb-5">Who We Are</h2>
                             <p class="text-lg text-zinc-600 leading-relaxed mb-6">
-                                JEREDIS is a framework that aims to engage all young volunteers, without exception, in this reconciliation process, which is already underway but whose destination remains unknown.
+                                <span class="font-bold">Jeredis</span>  is a framework that aims to engage all young volunteers, without exception, in this reconciliation process, which is already underway but whose destination remains unknown.
 
                                 Young people, the custodians of family history, must absolutely be involved. This is a prerequisite for effective reconciliation. JEREDIS is a youth association that, counting on the peace that will result from genuine reconciliation, is committed to development for all, without exception, in all areas and sectors, across all provinces.
                             </p>
