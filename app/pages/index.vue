@@ -48,16 +48,20 @@
             <!-- Hero Section -->
             <section id="home" class="hero-gradient py-16 md:py-28 overflow-hidden relative scroll-mt-24">
                 <!-- <div class="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1639436926668-2f8b4f32e15a?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w4MDcxMzN8MHwxfHNlYXJjaHwxfHxkaXZlcnNlJTIweW91dGglMjBwZWFjZSUyMGNvbW11bml0eSUyMHNtaWxpbmclMjBvdXRkb29yc3xlbnwwfDB8fHwxNzY1NTU1NzgyfDA&ixlib=rb-4.1.0&q=80&w=1920')] bg-cover bg-center opacity-10"></div> -->
-                <div class="absolute inset-0 bg-[url('/jeredis1.png')] bg-cover bg-center opacity-20"></div>
+                <!-- <div class="absolute inset-0 bg-[url('/jeredis1.png')] bg-cover bg-center opacity-20"></div> -->
+                <div class="absolute inset-0 hero bg-cover bg-center opacity-20" data-bg="/jeredis1.png"></div>
                 <div class="container mx-auto px-4 relative">
                     <div class="flex flex-col lg:flex-row items-center">
-                        <div class="lg:w-1/2 mb-12 lg:mb-0 fade-in">
+                        <div class=" mb-12 lg:mb-0 fade-in">
                             <div class="inline-flex items-center px-4 py-2 rounded-full bg-amber-100 text-amber-800 font-medium mb-6 shadow-sm animate-pulse">
                                 <Icon icon="fa-solid:star" class="mr-2" /> Empowering Youth for Peace Since 2019
                             </div>
-                            <h3 class="text-4xl md:text-6xl font-bold text-zinc-900 mb-6 leading-tight sm:text-right text-center">
+                            <h3 class="text-4xl md:text-6xl font-bold text-zinc-900 mb-6 leading-tight sm:text-center text-center">
                                 Jeunesse Engagée pour <span class="text-gradient">la Reconciliation Effective</span> en vue d'un Développement <span class="text-gradient">Intégral de la Société</span>
                             </h3>
+                            <div style="display: flex; justify-content: center;">
+                                <img src="/logo.png" alt="Jeredis Logo" class="min-w-62 h-auto"></img>
+                            </div>
                             <p class="text-lg text-zinc-600 mb-8 leading-relaxed">
                                 We unite young leaders across communities to foster dialogue, resolve conflicts, and build sustainable peace for future generations.
                             </p>
@@ -71,8 +75,8 @@
                                 </button>
                             </div>
                         </div>
-                        
-                        <div class="lg:w-1/2">
+                         
+                        <div class="lg:w-1/2" style="display:none">
                             <div class="relative fade-in skew-x-5" style="transition-delay: 0.1s; top: -3em;">
                                 <div class="bg-gradient-to-r from-blue-500 to-lime-400 rounded-3xl p-1.5 shadow-2xl image-hover">
                                     <div class="bg-white rounded-3xl p-8">
@@ -88,7 +92,7 @@
                                                 <div class="w-14 h-14 rounded-full bg-lime-100 flex items-center justify-center mb-4 shadow-sm">
                                                     <Icon icon="bi:globe-europe-africa-fill" class="text-lime-600 text-2xl" aria-hidden="true"/>
                                                 </div>
-                                                <h3 class="font-bold text-lg text-zinc-900 mb-2">Global Reach</h3>
+                                                <h3 class="font-bold text-lg text-zinc-900 mb-2">National Reach</h3>
                                                 <p class="text-zinc-600 text-sm">Active in 5 provinces across Burundi</p>
                                             </div>
                                             <div class="bg-amber-50 p-5 rounded-2xl card-hover">
@@ -104,7 +108,7 @@
                                                     <Icon icon="fa-solid:graduation-cap" class="text-yellow-600 text-2xl" aria-hidden="true"/>
                                                 </div>
                                                 <h3 class="font-bold text-lg text-zinc-900 mb-2">Education</h3>
-                                                <p class="text-zinc-600 text-sm">Peace curriculum in 8 schools</p>
+                                                <p class="text-zinc-600 text-sm">Peace clubs in 8 schools</p>
                                             </div>
                                         </div>
                                     </div>
@@ -123,6 +127,7 @@
                                 </div>
                             </div>
                         </div>
+                        
                     </div>
                 </div>
 
@@ -136,7 +141,7 @@
                             </button>
                         </div>
                         <div class="relative w-full" style="padding-top: 56.25%">
-                            <iframe class="absolute inset-0 w-full h-full" :src="videoSrc" title="YouthPeace Alliance Story" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                            <iframe class="absolute inset-0 w-full h-full" :src="videoSrc" title="Jeredis Story" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -178,7 +183,9 @@
                         <div class="order-2 lg:order-1 fade-in">
                             <h2 class="text-4xl font-bold text-zinc-900 mb-5">Who We Are</h2>
                             <p class="text-lg text-zinc-600 leading-relaxed mb-6">
-                                YouthPeace Alliance is a global network dedicated to equipping young people with the knowledge, skills, and opportunities to lead peacebuilding initiatives in their communities.
+                                JEREDIS is a framework that aims to engage all young volunteers, without exception, in this reconciliation process, which is already underway but whose destination remains unknown.
+
+                                Young people, the custodians of family history, must absolutely be involved. This is a prerequisite for effective reconciliation. JEREDIS is a youth association that, counting on the peace that will result from genuine reconciliation, is committed to development for all, without exception, in all areas and sectors, across all provinces.
                             </p>
                             <ul class="space-y-4">
                                 <li class="flex items-start">
@@ -205,7 +212,7 @@
                                     </span>
                                     <div>
                                         <p class="font-semibold text-zinc-900">Education & Training</p>
-                                        <p class="text-zinc-600">Delivering curricula and workshops in schools and youth centers worldwide.</p>
+                                        <p class="text-zinc-600">Delivering sessions and workshops in schools and youth centers nationalwide.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -512,7 +519,7 @@
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Cookie Policy</a>
                         <a href="#" class="text-zinc-500 hover:text-blue-400 transition-all duration-300">Accessibility</a>
                     </div> -->
-                    <p>Site Web developpé par <a class="text-blue-500" href="https://nsanzumukiza.netlify.app/" target="_blank"  rel="noopener noreferrer">Thierry Nsanzumukiza</a>.</p>
+                    <p>Site Web developpé par <a class="text-blue-500" href="https://nsanzumukiza.netlify.app/" target="_blank"  rel="noopener noreferrer">Nsanzumukiza</a>.</p>
                 </div>
             </div>
         </footer>
@@ -649,6 +656,9 @@
 <style>
     * { font-family: 'Inter', sans-serif; }
     html { scroll-behavior: smooth; }
+    .hero{
+        height: 100vh;
+    }
     .gradient-bg { background: linear-gradient(135deg, #fefce8 0%, #f0f9ff 50%, #f7fee7 100%); }
     .hero-gradient { background: linear-gradient(135deg, rgba(59, 130, 246, 0.08) 0%, rgba(163, 230, 53, 0.08) 50%, rgba(251, 191, 36, 0.08) 100%); }
     .card-hover { transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1); }
